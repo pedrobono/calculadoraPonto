@@ -25,6 +25,8 @@ public class CalculadoraPontoApplication {
         
         calcularHorarios(entrada1, saidaAlmoco, voltaAlmoco, formatter);
         
+        System.out.println("\nPressione Enter para sair...");
+        scanner.nextLine();
         scanner.close();
     }
     
